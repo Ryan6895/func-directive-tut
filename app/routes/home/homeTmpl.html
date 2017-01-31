@@ -1,0 +1,11 @@
+<input type="text" ng-model="userInput" />
+<button type="button" ng-click="addToList(userInput)"> Add </button>
+<br><hr>
+<div ng-repeat="item in list">
+  {{item}}
+</div>
+
+<br><br><hr>
+
+<a ui-sref="about({id: test})">About</a>
+<button ng-click="goToAbout()">GO</button>
